@@ -12,25 +12,33 @@
 	    dt {
 		    font-weight: bold;
 	    }
+	#home {
+             background-color:#1E90FF;
+             color: white; 
+         }
       .sidebar {
         margin: 0;
         padding: 0;
         width: 200px;
+        background-color: #f1f1f1;
         position: fixed;
         height: 100%;
         overflow: auto;
 	font-size: 20px;
       }
-
       .sidebar a {
         display: block;
         color: black;
         padding: 16px;
         text-decoration: none;
       }
-
-      .sidebar a:hover {
-        color: #1E90FF;
+      .sidebar a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+      .sidebar a:hover:not(.active) {
+        background-color: #555;
+        color: white;
       }
       div.content {
         margin-left: 200px;
@@ -49,7 +57,6 @@
         .sidebar a {float: left;}
         div.content {margin-left: 0;}
       }
-
       @media screen and (max-width: 600px) {
 	  .sidebar a:not(:first-child) {display: none;}
 	  .sidebar a.icon {
@@ -57,7 +64,6 @@
 	    display: block;
 	  }
 	}
-
 	@media screen and (max-width: 600px) {
 	  .sidebar.responsive {position: relative;}
 		  .sidebar.responsive .icon {
@@ -94,10 +100,10 @@
   <body>
 
     <div id="mybar" class="sidebar">
-      <a id="home" style="background:#1E90FF" href="https://molpa.github.io/">ମୋଲପା</a>
-      <a id="blog" href="https://molpa.github.io/blog/">TimeLine</a>
-      <a id="contact" href="https://molpa.github.io/contact/">About</a>
-      <a id="more" href="https://molpa.github.io/more/">More</a>
+      <a id="home" href="https://proneon267.github.io/">ପ୍ରୋ.ନି.୨୬୭</a>
+      <a id="blog" class=" {{ page.blogstatus }} " href="https://proneon267.github.io/blog/">TimeLine</a>
+      <a id="contact" class=" {{ page.contactstatus }} " href="https://proneon267.github.io/contact/">Contact</a>
+      <a id="more" class=" {{ page.morestatus }} " href="https://proneon267.github.io/more/">More</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i>&#9776;</i>
   </a>
@@ -106,7 +112,7 @@
     <div class="content">
       {{ content }}
 	    <footer>
-	    Copyright &copy; 2019 Molpa
+	    Copyright &copy; 2019 proneon267
 	    </footer>
     </div>
   </body>
