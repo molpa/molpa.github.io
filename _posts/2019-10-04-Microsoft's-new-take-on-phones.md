@@ -10,7 +10,7 @@ This year on surface event, microsoft has announced a new foldable phone, named 
 mind when you hear "foldable", it is not a flexible foldable display phone. It's a simple setup with two non-flexible displays
 which to all seems like a miniature Surface Neo. But unlike the Neo, the duo doesn't run windows X, rather custom android. Microsoft 
 has added some features to the android os to make the dual screen continuum work seamlessly. 
-![DUO](/images/2.webp)
+![DUO](/images/2.webp =600X)
 
 But the most surprising is that by using simple 2 separate display system, Microsoft has altogether bypassed the problems that 
 flexible non-foldable display bring with them. The device comes with the following specs:
@@ -22,4 +22,4 @@ flexible non-foldable display bring with them. The device comes with the followi
 
 Despite whether or not you want to call it a phone, this design is quite similar to
 the design of the famous Nintendo 3DS.
-![3DS](/images/1.jpg)
+![3DS](/images/1.jpg =600X)
