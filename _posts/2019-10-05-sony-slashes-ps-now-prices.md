@@ -11,7 +11,9 @@ decided to cut down PS Now monthly subscription service by almost 50%.
 
 The new prices are:
 ~~$19.99~~ >> $9.99
+
 ~~$44.99~~ >> $24.99
+
 ~~$99.99~~ >> $59.99
 
 Sony has also added God of War(2018), GTA 5, Uncharted 4 and Infamous Second Son to the games list. Whether or not this is a 
