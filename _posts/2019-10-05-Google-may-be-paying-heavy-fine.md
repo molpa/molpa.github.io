@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Microsoft's new take on phones
+title: Google maybe paying a heavy fine
 author: proneon267
 date: 2019-10-04
 comments: true
