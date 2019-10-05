@@ -17,4 +17,5 @@ Users can call on 000-800-9191-000 to chat with google assistant on Vodafone net
 * Locate nearby stores
 * Traffic updates
 * Local Weather
+
 The phone line will be toll free so people who don't have friends can enjoy with their virtual companion for hours.
