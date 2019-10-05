@@ -10,6 +10,7 @@ In an attempt to minimize the damage done by Microsoft's xcloud and Google's sta
 decided to cut down PS Now monthly subscription service by almost 50%. 
 
 The new prices are:
+
 ~~$19.99~~ >> $9.99
 
 ~~$44.99~~ >> $24.99
