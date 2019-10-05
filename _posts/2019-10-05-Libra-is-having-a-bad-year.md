@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LIbra is having a bad year
+title: Libra is having a bad year
 author: proneon267
 date: 2019-10-05
 comments: true
