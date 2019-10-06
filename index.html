@@ -6,13 +6,8 @@ homestatus: h
 <h1>Molpa | News</h1>
 <div class="latest">
 <b>Latest Posts:</b>
-{% for post in site.posts %}
-	{% for i in 5 %}
-	{% if i > 5 %}
-	{% break %}
-	{% endif %}
+{% for post in site.posts limit:2 %}
 	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	<hr>
-	{% endfor %}
 {% endfor %}
 </div>
